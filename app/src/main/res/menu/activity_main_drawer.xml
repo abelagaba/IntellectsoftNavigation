@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragmentId"
+            android:title="HOME" />
+        <item
+            android:id="@+id/servicesFragmentId"
+            android:title="SERVICES" />
+        <item
+            android:id="@+id/technologiesFragmentId"
+            android:title="TECHNOLOGIES" />
+        <item
+            android:id="@+id/industriesFragmentId"
+            android:title="INDUSTRIES" />
+        <item
+            android:id="@+id/clientsFragmentId"
+            android:title="CLIENTS" />
+        <item
+            android:id="@+id/companyFragmentId"
+            android:title="COMPANY" />
+    </group>
+</menu>
